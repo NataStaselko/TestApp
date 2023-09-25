@@ -1,1 +1,1 @@
-### This is test task Android application
+### This is the test task Android application
