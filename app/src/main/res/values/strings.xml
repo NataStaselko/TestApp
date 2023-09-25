@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TestApp</string>
+    <string name="play">PLAY</string>
+    <string name="play_for_time">PLAY FOR TIME</string>
+    <string name="casual">CASUAL</string>
+    <string name="next">NEXT</string>
+    <string name="check">CHECK</string>
+    <string name="restart">CONGRATULATIONS! YOU FINISHED THE GAME!\n YOUR TOTAL SCORE IS</string>
+    <string name="hello_text">MATCH THE TIME ZONE WITH THE CITY</string>
+    <string name="lets_go">LET\'S GO!</string>
 </resources>

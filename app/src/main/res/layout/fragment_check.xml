@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".game_page.CheckFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/img_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="3"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="top"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/name_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="3"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/img_list"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="150dp"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/button_check"
+        style="@style/btn_stile"
+        app:backgroundTint="@null"
+        android:layout_below="@id/name_list"
+        android:text="@string/check"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp" />
+
+</FrameLayout>

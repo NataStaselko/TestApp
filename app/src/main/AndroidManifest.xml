@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestApp"
         tools:targetApi="31">
+        <activity android:name=".game_page.GameActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".hello_page.HelloActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

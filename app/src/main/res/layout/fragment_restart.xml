@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".game_page.ResultFragment">
+
+    <TextView
+        android:id="@+id/congratulation"
+        style="@style/text_stile"
+        android:textSize="35dp"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/restart"
+        android:layout_above="@+id/score"
+        android:layout_marginBottom="80dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        style="@style/text_stile"
+        android:layout_above="@+id/button_restart"
+        android:layout_marginBottom="150dp"/>
+
+    <Button
+        android:id="@+id/button_restart"
+        style="@style/btn_stile"
+        app:backgroundTint="@null"
+        android:text="RESTART"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>
